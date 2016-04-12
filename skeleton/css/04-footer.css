@@ -1,1 +1,31 @@
 /* PHASE 4: Footer */
+.footer {
+  background-color: white;
+  min-height: 60px;
+  border: 1px solid #aaa;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #aaa;
+}
+
+.footer-header {
+  float: left;
+}
+
+.footer-links {
+  float:right;
+}
+
+.footer-links > li{
+  float:left;
+  margin: 20px;
+}
+
+.footer-header{
+  margin: 20px;
+  /*display: inline-block;*/
+}
+
+.footer-links > li:hover {
+  color: black;
+}
