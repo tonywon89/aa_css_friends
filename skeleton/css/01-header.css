@@ -20,10 +20,11 @@ body{
 .header-logo{
   margin: auto;
   float: left;
+  position: relative;
+  font-weight: bold;
+  left: 70px;
   border-left: 1px solid white;
   border-right: 1px solid white;
-  position: relative;
-  left: 70px;
 }
 
 .header-list{
@@ -34,13 +35,18 @@ body{
 
 .header-list li{
   float: left;
+  border-left: 1px solid white;
 }
 
 .header-logo > a, .header-list li > a {
   display: block;
   padding: 11px;
   height: 40px;
-  border-left: 1px solid white;
+  /*border-left: 1px solid white;*/
+  /*border-right: 1px solid white;*/
+}
+
+li:last-child {
   border-right: 1px solid white;
 }
 
