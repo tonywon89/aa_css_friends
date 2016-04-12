@@ -4,6 +4,7 @@ body{
   font-family: Roboto;
   font-size: 16px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .header{

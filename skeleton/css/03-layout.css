@@ -1,1 +1,39 @@
 /* PHASE 3: Layout */
+.content{
+  min-height: 200px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 70px;
+  background-color: #eee;
+  /*border: 5px solid black;*/
+}
+.content:before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  left: 310px;
+  top: 40px;
+  bottom: 70px;
+  color: red;
+  background-color: #aaa;
+}
+.content-sidebar{
+  width: 240px;
+  /*TODO padding*/
+  background-color: white;
+  min-height: 200px;
+  float: left;
+  border-bottom: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+}
+
+.content-main{
+  width: calc(100% - 240px);
+  background-color: white;
+  min-height: 200px;
+  float: left;
+  /*TODO padding*/
+  border-bottom: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+}
