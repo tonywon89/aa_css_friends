@@ -33,23 +33,22 @@ body{
   right: 70px;
 }
 
-.header-list li{
+.header-list > li{
   float: left;
   border-left: 1px solid white;
+  position: relative;
 }
 
 .header-logo > a, .header-list li > a {
-  display: block;
+  display: inline-block;
   padding: 11px;
   height: 40px;
-  /*border-left: 1px solid white;*/
-  /*border-right: 1px solid white;*/
 }
 
 li:last-child {
   border-right: 1px solid white;
 }
 
-.header-list li:hover, .header-logo:hover{
+.header-list > li:hover, .header-logo:hover{
   background-color: black;
 }

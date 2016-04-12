@@ -3,4 +3,40 @@
 .badge {
   border-radius: 50%;
   background-color: black;
+  display: inline-block;
+  width: 20px;
+  padding: 1px 5px;
+  text-align: center;
+}
+
+.dropdown{
+  display: none;
+  background-color: white;
+  color: black;
+  position: absolute;
+}
+
+.dropdown > li{
+  white-space: nowrap;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
+.dropdown > li:hover{
+  background-color: #eee;
+}
+
+.dropdown >li:last-child{
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.header-list li:hover .dropdown{
+  display: block;
+}
+
+.header-list li:hover .badge{
+  background-color: red;
 }
