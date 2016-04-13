@@ -19,6 +19,7 @@
   background-color: #aaa;
 }
 .content-sidebar{
+  z-index: 1;
   width: 240px;
   /*TODO padding*/
   background-color: white;

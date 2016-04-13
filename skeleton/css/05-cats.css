@@ -6,6 +6,11 @@
   line-height: 1;
 }
 
+.content-header img {
+  position: relative;
+  z-index: 0;
+}
+
 .img-text {
   z-index: 1;
   position: absolute;
